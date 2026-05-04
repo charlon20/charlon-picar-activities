@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <table id="myTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>G1</th>
+        <th>G2</th>
+        <th>G3</th>
+        <th>Ave</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+  </table>
+
+  <script>
+    const students = [
+    { studentName: "Jake", grades: [85, 90, 88], present: true },
+    { studentName: "Gerald", grades: [70, 75, 72], present: false },
+    { studentName: "John Dexter", grades: [95, 92, 94], present: true },
+    { studentName: "Jamaica", grades: [60, 65, 70], present: true },
+    { studentName: "Jolina", grades: [88, 85, 90], present: true },
+    { studentName: "Sarah", grades: [78, 80, 82], present: false },
+    { studentName: "Czeahamford", grades: [92, 89, 94], present: true },
+    { studentName: "Mc Kenneth", grades: [73, 70, 68], present: false },
+    { studentName: "Kaye", grades: [81, 84, 79], present: true }
+    ];
+
+    const tableBody = document.getElementById("table-body");
+
+    students.forEach((student) => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td>${student.studentName}</td>
+        <td>${student.grades}</td>
+        <td>${student.present}</td>
+      `;
+      tableBody.appendChild(row);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background-color: gray;
+}
+.controls { 
+    margin: 10px; display: flex; gap: 10px;
+    border: 2px solid black ;
+    width: 55%;
+    height: 50px;
+    background-color: black;
+    color: white;
+ }
+.controls button { p
+    adding: 8px 12px; cursor: pointer;
+ }
+table { 
+    background-color: white;
+    color: black;
+    border-collapse: collapse; width: 100%;
+ }
+th, td { 
+    border: 1px solid #000; padding: 8px; text-align: center;
+ }

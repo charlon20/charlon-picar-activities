@@ -1,0 +1,105 @@
+body {
+    background-image: url("../image/bgmage.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login-container h1 {
+    color: rgb(252, 164, 2);
+    text-align: center;
+}
+.login-container {
+    background-image: url("../image/bgmage.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(2, 27, 252);
+}
+.login-container button {
+    margin: 5PX;
+    padding: 2px;
+    border: 1px solid #000;
+    width: 20%;
+    height: 10%;
+    padding: 2%;
+}
+.error {
+    color: rgb(84, 99, 99);
+    padding: 5px;
+    border: 2px solid white;background-color: black;
+    border-radius: 10px;
+    visibility: hidden;
+}
+.login-container input {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.con1 {
+    border-radius: 10px;
+    size: auto;
+    border: 4px solid black;
+    box-shadow: 3px 3px 10px rgb(2, 27, 252);
+}
+.con2 {
+    border-radius: 10px;
+    size: auto;
+    border: 9px solid white;
+    box-shadow: 3px 3px 10px rgb(252, 2, 2);
+}
+.con3 {
+    border-radius: 10px;
+    size: auto;
+    border: 4px solid black;
+    box-shadow: 3px 3px 10px rgb(2, 27, 252);
+}
+.con4 {
+    border-radius: 10px;
+    size: auto;
+    border: 7px solid white;
+    box-shadow: 3px 3px 10px rgb(252, 2, 2);
+}
+.con5 {
+    border-radius: 10px;
+    size: auto;
+    border: 4px solid black;
+    box-shadow: 3px 3px 10px rgb(2, 27, 252);
+}
+.con6 {
+    border-radius: 10px;
+    size: auto;
+    border: 5px solid white;
+    box-shadow: 5px 5px 10px rgb(252, 2, 2);
+}
+.con7 {
+    border-radius: 10px;
+    size: auto;
+    border: 4px solid black;
+    box-shadow: 3px 3px 10px rgb(2, 27, 252);
+}
+.con8 {
+    border-radius: 10px;
+    size: auto;
+    border: 3px solid white;
+    box-shadow: 3px 3px 10px rgb(252, 2, 2);
+}
+.con9 {
+    border-radius: 10px;
+    size: auto;
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px rgb(2, 27, 252);
+}   
