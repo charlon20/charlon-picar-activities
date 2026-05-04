@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Information System</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="./css/student.css">
+</head>
+<body>
+
+  <h1>Student Information System</h1>
+
+  <!-- Filter Buttons (Top Section) -->
+  <div class="buttons">
+    <button type="button" class="btn present" onclick="showPresent()" aria-label="Show Present Students">
+      <span class="icon">✔</span>
+      <span class="text">Show Present</span>
+    </button>
+
+    <button type="button" class="btn absent" onclick="showAbsent()" aria-label="Show Absent Students">
+      <span class="icon">✖</span>
+      <span class="text">Show Absent</span>
+    </button>
+
+    <button type="button" class="btn passed" onclick="showPassed()" aria-label="Show Passed Students">
+      <span class="icon">🎓</span>
+      <span class="text">Show Passed</span>
+    </button>
+
+    <button type="button" class="btn failed" onclick="showFailed()" aria-label="Show Failed Students">
+      <span class="icon">⚠</span>
+      <span class="text">Show Failed</span>
+    </button>
+  </div>
+
+  <!-- Search Bar -->
+  <div class="top-bar">
+    <input type="text" id="search" placeholder="Search student name">
+    <button type="button" class="btn btn-search" onclick="searchStudent()">
+      🔍 <span>Search</span>
+    </button>
+  </div>
+
+  <!-- Student Table -->
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>G1</th>
+        <th>G2</th>
+        <th>G3</th>
+        <th>Average</th>
+        <th>Remarks</th>
+      </tr>
+    </thead>
+    <tbody id="studentTable">
+      <!-- JavaScript will insert rows here -->
+    </tbody>
+  </table>
+
+  <!-- JavaScript File -->
+  <script src="./js/student.js"></script>
+
+</body>
+</html>
